@@ -1,5 +1,14 @@
 body {
     background-color: white;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: left;
+    padding:30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    color: black;
 }
 
 #title {
@@ -11,18 +20,23 @@ body {
 #head {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(255, 200, 63);
+    background-color: rgb(244, 83, 69);
     margin-left: 10px;
     margin-right: 10px;
-    padding: 5px;
     font-size: 15px;
+    padding: 5px;
+}
+
+#links_list{
+    margin-left: 50px;
+    color: black;
 }
 
 #footer {
     display:flex;
     justify-content: space-around;
-    background-color: rgb(255, 200, 63);
-    margin-top: 0px;
+    background-color: rgb(244, 83, 69);
+    margin-top: 165px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
