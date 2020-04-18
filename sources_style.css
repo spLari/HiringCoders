@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(244, 83, 69);
     font-family: sans-serif;
 }
 
@@ -20,7 +20,7 @@ p {
 #head {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(244, 83, 69);
+    background-color: rgb(255, 200, 63);
     margin-left: 10px;
     margin-right: 10px;
     font-size: 15px;
@@ -35,7 +35,7 @@ p {
 #footer {
     display:flex;
     justify-content: space-around;
-    background-color: rgb(244, 83, 69);
+    background-color: rgb(255, 200, 63);
     margin-top: 165px;
     margin-left: 10px;
     margin-right: 10px;

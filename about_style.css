@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(243, 187, 187);
     font-family: cursive;
     color: black;
 }
@@ -17,7 +17,7 @@ p {
 #head {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(244, 83, 69);
+    background-color: rgb(255, 200, 63);
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
