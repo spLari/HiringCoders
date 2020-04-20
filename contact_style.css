@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    font-family: sans-serif;
+    background-color: rgb(154, 230, 74);;
 }
 
 #title {
@@ -11,24 +12,29 @@ body {
 #head {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(255, 200, 63);
+    background-color: rgb(244, 83, 69);
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
     font-size: 15px;
 }
 
+#content {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #footer {
     display:flex;
     justify-content: space-around;
-    background-color: rgb(255, 200, 63);
-    margin-top: 0px;
+    background-color: rgb(244, 83, 69);
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
 }
 
 .links {
-    color: black;
+    color: white;
     font-weight: bold;
 }

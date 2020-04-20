@@ -5,10 +5,8 @@ body {
 
 p {
     text-align: left;
-    padding:30px;
-    margin-left: 0px;
-    margin-right: 10px;
     color: black;
+    background-color: white;
 }
 
 #title {
@@ -27,8 +25,16 @@ p {
     padding: 5px;
 }
 
+#content {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+    padding-bottom: 240px;
+}
+
 #links_list{
-    margin-left: 50px;
+    margin-left: 20px;
     color: black;
 }
 
@@ -36,13 +42,16 @@ p {
     display:flex;
     justify-content: space-around;
     background-color: rgb(255, 200, 63);
-    margin-top: 165px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
 }
 
 .links {
-    color: black;
+    color: white;
     font-weight: bold;
+}
+
+.links_content {
+    color: blue;
 }

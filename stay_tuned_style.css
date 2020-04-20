@@ -1,5 +1,5 @@
 body {
-    font-family: cursive;
+    font-family: sans-serif;
     color: black;
     background-color: rgb(253, 215, 117);
 }
@@ -10,8 +10,11 @@ p{
 }
 
 #title {
+    font-family: sans-serif;
     text-align: center;
+    font-size: 20px;
 }
+
 #head {
     display: flex;
     justify-content: space-around;
@@ -22,11 +25,19 @@ p{
     font-size: 15px;
 }
 
+#content {
+    background-color: white;
+    font-family: cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+}
+
 #footer {
     display:flex;
     justify-content: space-around;
     background-color: rgb(244, 83, 69);
-    margin-top: 150px;
+    margin-top: 0px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
@@ -35,4 +46,8 @@ p{
 .links {
     color: white;
     font-weight: bold;
+}
+
+.links_content {
+    color: blue;
 }

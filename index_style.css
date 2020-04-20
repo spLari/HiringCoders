@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(154, 230, 74);
     font-family: sans-serif;
 }
 
@@ -36,7 +36,7 @@ img{
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(154, 230, 74);
+    background-color: white;
     text-align: center;
 }
 
@@ -58,3 +58,6 @@ img{
     font-weight: bold;
 }
 
+.links_content {
+    color: blue;
+}
